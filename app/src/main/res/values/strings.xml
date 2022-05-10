@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_science">Science</string>
+    <string name="title_sport">Sport</string>
+    <string name="title_entertainment">Entertainment</string>
+    <string name="title_business">Business</string>
+    <string name="title_health">Health</string>
+
+    <string name="news">News</string>
+
+    <string name="search_news">Search News</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="search">Search</string>
+    <string name="sortBy">Sort by</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

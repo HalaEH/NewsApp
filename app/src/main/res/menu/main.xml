@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/home"
+        android:title="@string/title_home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_science"
+        android:orderInCategory="100"
+        android:title="@string/title_science"
+        android:icon="@drawable/science"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sports"
+        android:orderInCategory="100"
+        android:title="@string/title_sport"
+        android:icon="@drawable/sports"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_entertainment"
+        android:orderInCategory="100"
+        android:title="@string/title_entertainment"
+        android:icon="@drawable/entertainment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_business"
+        android:orderInCategory="100"
+        android:title="@string/title_business"
+        android:icon="@drawable/business"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_health"
+        android:orderInCategory="100"
+        android:icon="@drawable/health"
+        android:title="@string/title_health"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings"
+        android:title="@string/title_settings"
+        app:showAsAction="never" />
+</menu>
