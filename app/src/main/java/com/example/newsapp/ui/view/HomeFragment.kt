@@ -9,6 +9,7 @@ import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newsapp.R
@@ -82,7 +83,6 @@ class HomeFragment : Fragment() {
         }else{
             binding.apply {
                 noConnection.visibility = View.VISIBLE
-              //  noConnection.setImageResource(R.drawable.wifi)
                 binding.card.visibility = View.INVISIBLE
                 searchView.visibility = View.INVISIBLE
                 progressBar.visibility = ProgressBar.INVISIBLE

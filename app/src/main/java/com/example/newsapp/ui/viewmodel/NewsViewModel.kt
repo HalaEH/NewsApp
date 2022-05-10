@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.newsapp.model.Articles
 import com.example.newsapp.model.NewsReponse
 import com.example.newsapp.model.RepositoryInterface
 import kotlinx.coroutines.Dispatchers
@@ -102,6 +103,16 @@ class NewsViewModel (private val _irepo: RepositoryInterface, private val _appli
 
     fun checkCountry(){
         country = PreferenceManager.getDefaultSharedPreferences(_application.applicationContext).getString("country","us")!!
+    }
+
+    fun saveArticle(articles: Articles) = viewModelScope.launch {
+        _irepo.upsert(articles)
+    }
+
+    fun getSavedArticles() = _irepo.getAllArticles()
+
+    fun deleteArticle(articles: Articles) = viewModelScope.launch {
+        _irepo.deleteArticle(articles)
     }
 
 }
